@@ -1,0 +1,71 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --darkBeige: #E6DACD;
+    --lightBeige: #F4ECE6;
+    --royalBlue: #0150FD;
+    --black: #000 White: #FFF;
+    
+}
+
+/* fonts */
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* anchor tag  */
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+/* header */
+
+
+
+.header-sec {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+}
+
+.nav-bar {
+    padding: 5px 10px;
+
+}
+
+.nav-links {
+    padding: 0px 5px;
+}
+
+.blue-box {
+    width: 10px;
+    height: 10px;
+    background-color: var(--royalBlue);
+    margin: auto;
+}
+
+.nameTag {
+    color: var(--royalBlue);
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.jobTag {
+    font-family: "Quicksand", sans-serif;
+    margin: auto;
+}
